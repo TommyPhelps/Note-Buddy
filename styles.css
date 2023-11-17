@@ -30,3 +30,21 @@ body {
     color: #fefae0;
     font-size: 14pt;
 }
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    text-align: center;
+}
+
+button {
+    background-color: #606c38;
+    color: #fefae0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14pt;
+    border: #fefae0;
+    border-radius: 5px;
+}
