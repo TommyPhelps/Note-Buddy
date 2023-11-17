@@ -13,7 +13,8 @@ body {
 
 .noteDiv {
     padding: 10px;
-    border: 1px solid #fefae0;
+    border: 1px #606c38;
+    border-style: solid none;
     height: 500px;
 }
 
