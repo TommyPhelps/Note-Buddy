@@ -7,24 +7,20 @@ body {
     margin-right: auto;
 }
 
-.pageHeading {
-    text-align: center;
-}
-
 .noteDiv {
     padding: 10px;
     border: 1px #606c38;
-    border-style: solid none;
+    border-style: solid none none none;
     height: 500px;
 }
 
-.noteInput {
+.textInput {
     resize: none;
     outline: none;
     width: 100%;
+    height: 100%;
     padding: 10px;
     border: none;
-    height: 100%;
     margin: -10px;
     background-color: #283618;
     color: #fefae0;
@@ -34,6 +30,13 @@ body {
 .center {
     display: flex;
     justify-content: center;
+}
+
+body {
+    padding-top: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 0;
 }
 
 p {
